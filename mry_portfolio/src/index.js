@@ -5,6 +5,8 @@ import './index.css';
 // import App from './App';
 import Home from './Home.jsx';
 import Contact from './Contact.jsx';
+import About from './About.jsx';
+import Projects from './Projects.jsx';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './Components/NavBar.jsx';
 
@@ -16,6 +18,8 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
