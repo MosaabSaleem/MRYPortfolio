@@ -37,6 +37,28 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
+.homeTitle .titleUnderline {
+  position: relative;
+  display: inline-block;
+}
+
+.homeTitle .titleUnderline::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1s ease-in-out;
+}
+
+.homeTitle.loaded .titleUnderline::after {
+  transform: scaleX(1);
+}
+
 .homeTextContainer{
   display: flex;
   flex-direction: column;

@@ -2,34 +2,82 @@
 
 .Contact {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10vh;
 }
 
-.ContactText {
-  font-family: 'Roboto Mono', monospace;
-  color: white;
-  font-size: 1.5rem;
-  justify-content: center;
-}
-
-.ContactIcons {
+.ContactContainer {
+  width: 95%;
+  height: 80%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  margin-top: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-.ContactIcon {
+.ContactRight {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.ContactMiddleLine {
+  width: 2px;
+  height: 80%;
+  background-color: #444;
+  margin: 0 2rem;
+}
+
+.ContactLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+  height: 90%;
+}
+
+.ContactTitle {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.ContactText {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 1.2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.ContactIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.ContactIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  width: 50%;
+  gap: 1.2rem;
 }
 
 .ContactIconImage {
@@ -42,6 +90,6 @@
 .ContactIconText {
   font-family: 'Roboto Mono', monospace;
   color: white;
-  font-size: 0.75rem;
+  font-size: 1rem;
   justify-content: center;
 }

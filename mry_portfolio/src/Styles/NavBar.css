@@ -1,7 +1,7 @@
 .navbar {
     /* background: linear-gradient(90deg, rgba(122, 122, 122, 0.9) 10%, rgba(50, 50, 50, 0.9) 90%); */
-    background-color: rgba(0, 0, 0, 0.01);
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 85%;
     height: 10vh;
     border-radius: 0;
     justify-self: center;
@@ -13,10 +13,12 @@
     opacity: 0.95;
     backdrop-filter: blur(10px);
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 1%;
+    left: 12.5%;
+    right: 12.5%;
     z-index: 1000;
     border-bottom: 1px solid rgba(108, 107, 107, 0.2);
+    border-radius: 50px;
 }
 
 .navbarlogo {

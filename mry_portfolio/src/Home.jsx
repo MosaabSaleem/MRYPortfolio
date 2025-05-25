@@ -6,6 +6,7 @@ import PCIcon from "./Assets/PCIcon.png";
 import CubeIcon from "./Assets/cubeIcon.png";
 import CodeIcon from "./Assets/CodeIcon.png";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 function Home() {
   const navigate = useNavigate();
@@ -18,15 +19,22 @@ function Home() {
     navigate("/projects");
   };
 
+  useEffect(() => {
+    const titleElement = document.querySelector(".homeTitle");
+    if (titleElement) {
+      titleElement.classList.add("loaded");
+    }
+  }, []);
+
   return (
     <div className="home">
       <div className="heroPage">
         {/* <div className="homeTitleContainer"> */}
-          <h1 className="homeTitle">Turning Your <span className="titleHighlight">Ideas </span>Into Reality</h1>
+          <h1 className="homeTitle">Websites That <span className="titleUnderline">Elevate </span> Your <span className="titleHighlight">Brand</span></h1>
           <button className="homeEnquireButton" onClick={handleEnquireClick}>Enquire Now</button>
         {/* </div> */}
         <div className="scrollPrompt">
-          <span className="scrollText">Scroll Down</span>
+          <span className="scrollText">Scroll For More</span>
           <div className="scrollArrow">
             <p>V</p>
           </div>
