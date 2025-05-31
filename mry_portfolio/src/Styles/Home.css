@@ -14,25 +14,31 @@ body{
   margin: 0;
   /* height: 100vh; */
   /* overflow: hidden; */
-  background: radial-gradient(circle, #353535 20%, #242424 70%);
+  /* background: radial-gradient(circle, #353535 20%, #242424 70%); */
+  background-color: #f6f5fa;
   position: relative;
 
 }
 
+p {
+  color: #1e203e;
+}
+
 .homeTitle{
-  color: white;
+  color: #1e203e;
   font-family: "Instrument Sans", sans-serif;
   font-size: 4rem;
   animation: fadeIn 1s ease-in-out;
+  text-align: center;
   /* bottom: 33vh; */
   /* position: relative; */
 }
 
 .homeTitle .titleHighlight{
   font-family: 'Lily Script One', cursive;
-  color: white;
+  color: #1e203e;
   /* background: linear-gradient(to right, rgb(255, 0, 166), rgb(31, 38, 255)); */
-  background: linear-gradient(to right, #db0000d1, #03fa63d1);
+  background: linear-gradient(to right, #2a8fa8, #0d98ba);;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -49,7 +55,7 @@ body{
   bottom: -10px;
   width: 100%;
   height: 5px;
-  background-color: white;
+  background-color: #1e203e;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 1s ease-in-out;
@@ -79,11 +85,11 @@ body{
 }
 
 .homeText{
-  color: white;
+  color: #1e203e;
   font-size: 1.5rem;
   animation: fadeIn 2s ease-in-out;
   font-weight: bold;
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5); */
 }
 
 .home {
@@ -105,16 +111,44 @@ body{
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url('../Assets/homeRedshapes.jpg'); 
-  /* background-color: #232323; */
+  /* background-image: url('../Assets/homeRedshapes.jpg');  */
+  /* background-color: #1e203e; */
   /* background: radial-gradient(circle, #303030cc 30%, #232323cc 70%); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 1px 10px rgba(152, 152, 152, 0.221);
+  border-bottom: #444;
 }
+
+.heroLeft {
+  width: 55%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroMiddleLine {
+  width: 2px;
+  height: 60%;
+  background-color: #444;
+  margin: 0 2rem;
+}
+
+.heroRight {
+  width: 44%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .homeContent {
   display: flex;
@@ -124,7 +158,7 @@ body{
   height: 100vh;
   width: 100%;
   position: relative;
-  background: radial-gradient(circle, #452e2e 20%, #3d3737 70%);
+  /* background: radial-gradient(circle, #452e2e 20%, #3d3737 70%); */
 }
 
 .homeContentLeft {
@@ -178,7 +212,7 @@ body{
 .homeEnquireButton{
   /* background: linear-gradient(90deg, rgba(122, 122, 122, 0.9) 10%, rgba(50, 50, 50, 0.9) 90%); */
   /* background: linear-gradient(100deg, #db0000cc, #03fa63cc); */
-  background-color: rgba(219, 0, 0, 0.37);
+  background-color: #0d98ba;
   color: white;
   padding: 10px 20px;
   border-radius: 50px;
@@ -259,13 +293,13 @@ body{
   align-items: center;
   justify-content: flex-end;
   animation: fadeIn 2s ease-in-out;
-  height: 30%;
+  height: 15%;
 
 }
 
 /* Scroll Text */
 .scrollText {
-  color: white;
+  color: #1e203e;
   font-size: 1rem;
   margin-bottom: 0.5rem;
   font-family: 'Instrument Sans', sans-serif;
@@ -276,7 +310,7 @@ body{
 .scrollArrow {
   width: 20px;
   height: 20px;
-  color: white;
+  color: #1e203e;
   /* transform: rotate(-45deg); */
   animation: bobbing 1.5s infinite ease-in-out;
 }

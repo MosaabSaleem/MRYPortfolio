@@ -6,7 +6,7 @@ import ReplyIcon from "./Assets/ReplyIcon.png";
 export default function Contact() {
     return (
         <div className="Contact">
-          <h1 className="ContactTitle">Let's Get In Touch</h1>
+          <h1 className="ContactTitle">Let's Get In Touch.</h1>
           <div className="ContactContainer">
             <div className="ContactLeft">
               <p className="ContactText">Contact us today to book a call and discuss your project. We'll tailor a site suitable for you and your business.</p>

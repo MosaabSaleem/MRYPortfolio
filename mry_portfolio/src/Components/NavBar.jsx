@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../Styles/NavBar.css";
-import MRYLogo from "../Assets/MRYLogoNavbar.png";
+import MRYLogo from "../Assets/MRYLogo2Cropped.png";
 
 export default function NavBar() {
     return (
@@ -11,9 +11,9 @@ export default function NavBar() {
                 </Link>
             </div>
             <div className="navlinks">
-                <Link to="/contact" className="navlink">Contact</Link>
+                <Link to="/contact" className="navlink">Contact us</Link>
                 <Link to="/projects" className="navlink">Projects</Link>
-                <Link to="/about" className="navlink">About us</Link>
+                <Link to="/about" className="navlink">About</Link>
             </div>
         </nav>
     );

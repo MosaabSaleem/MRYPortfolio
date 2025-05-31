@@ -16,9 +16,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #1a1a1a;
+  background-color: white;
   border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .ContactRight {
@@ -48,14 +48,14 @@
 
 .ContactTitle {
   font-family: 'Roboto Mono', monospace;
-  color: white;
+  color: #0d98ba;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .ContactText {
   font-family: 'Roboto Mono', monospace;
-  color: white;
+  color: #1e203e;
   font-size: 1.2rem;
   justify-content: center;
   text-align: center;
@@ -83,13 +83,12 @@
 .ContactIconImage {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
   transition: transform 0.3s ease-in-out;
 }
 
 .ContactIconText {
   font-family: 'Roboto Mono', monospace;
-  color: white;
+  color: #1e203e;
   font-size: 1rem;
   justify-content: center;
 }

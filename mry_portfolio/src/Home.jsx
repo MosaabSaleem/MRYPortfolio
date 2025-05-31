@@ -5,6 +5,7 @@ import CodeExample from "./Assets/CodeExample.png";
 import PCIcon from "./Assets/PCIcon.png";
 import CubeIcon from "./Assets/cubeIcon.png";
 import CodeIcon from "./Assets/CodeIcon.png";
+import heroImage from "./Assets/MRYLogo2Light.png";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -29,16 +30,24 @@ function Home() {
   return (
     <div className="home">
       <div className="heroPage">
-        {/* <div className="homeTitleContainer"> */}
+        <div className="heroLeft">
+          {/* <div className="homeTitleContainer"> */}
           <h1 className="homeTitle">Websites That <span className="titleUnderline">Elevate </span> Your <span className="titleHighlight">Brand</span></h1>
           <button className="homeEnquireButton" onClick={handleEnquireClick}>Enquire Now</button>
-        {/* </div> */}
-        <div className="scrollPrompt">
-          <span className="scrollText">Scroll For More</span>
-          <div className="scrollArrow">
-            <p>V</p>
-          </div>
-        </div>  
+          {/* </div> */}
+          <div className="scrollPrompt">
+            <span className="scrollText">Scroll For More</span>
+            <div className="scrollArrow">
+              <p>V</p>
+            </div>
+          </div>  
+        </div>
+        <div className="heroMiddleLine">
+
+        </div>
+        <div className="heroRight">
+          <img src={heroImage} className="heroImage" alt="MRY Logo"/>
+        </div>
       </div>
       <div className="homeContent">
         <div className="homeContentLeft">
