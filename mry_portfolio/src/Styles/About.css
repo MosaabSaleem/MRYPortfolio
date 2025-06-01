@@ -1,12 +1,79 @@
 .About {
     width: 100%;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10vh;
-  }
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    padding: 1rem 1rem 3rem 1rem;
+    background: rgba(255,255,255,0.85);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px #1e203e14;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AboutTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e203e;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
 
 .AboutText {
-    color:#1e203e;
+    color: #1e203e;
+    text-align: center;
+    font-size: 1.15rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.6;
+}
+
+.AboutList {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 2rem 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.AboutListItem {
+    background: #f6f5fa;
+    color: #1e203e;
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(30,32,62,0.04);
+    font-size: 1rem;
+    text-align: left;
+    position: relative;
+}
+
+.AboutListItem::before {
+    content: "✓";
+    color: #0d98ba;
+    font-weight: bold;
+    margin-right: 0.75rem;
+}
+
+.homeEnquireButton {
+    background: linear-gradient(90deg, #2a8fa8, #0d98ba);
+    color: #fff;
+    padding: 0.9rem 2.2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(30,32,62,0.08);
+}
+
+.homeEnquireButton:hover {
+    background: linear-gradient(90deg, #0d98ba, #2a8fa8);
+    transform: translateY(-2px) scale(1.04);
 }

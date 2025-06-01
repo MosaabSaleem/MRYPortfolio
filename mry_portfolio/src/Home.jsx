@@ -32,7 +32,7 @@ function Home() {
       <div className="heroPage">
         <div className="heroLeft">
           {/* <div className="homeTitleContainer"> */}
-          <h1 className="homeTitle">Websites That <span className="titleUnderline">Elevate </span> Your <span className="titleHighlight">Brand</span></h1>
+          <h1 className="homeTitle">Websites That <span className="titleUnderline">Elevate </span> Your <span className="titleHighlight">Business</span></h1>
           <button className="homeEnquireButton" onClick={handleEnquireClick}>Enquire Now</button>
           {/* </div> */}
           <div className="scrollPrompt">
