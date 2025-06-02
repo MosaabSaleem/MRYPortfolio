@@ -28,8 +28,8 @@ export default function Contact() {
             <div className="ContactMiddleLine"></div>
             <div className="ContactRight">
               {/* <p className="ContactText">Contact us to get started!</p> */}
-              <p className="ContactText">0412345678</p>
-              <p className="ContactText">MRYWebDevelopment@outlook.com</p>
+              <p className="ContactDetails">0412345678</p>
+              <p className="ContactDetails">MRYWebDevelopment@outlook.com</p>
             </div>
           </div>
         </div>

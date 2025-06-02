@@ -324,3 +324,65 @@ p {
     transform: translateY(10px);
   }
 }
+
+@media (max-width: 600px) {
+  .home {
+    width: 100%;
+    height: auto;
+  }
+
+  .heroPage,
+  .homeContent {
+    flex-direction: column-reverse;
+    /* height: auto; */
+  }
+
+  .heroLeft,
+  .heroRight,
+  .homeContentMiddle {
+    width: 100%;
+    /* height: auto; */
+    /* min-height: unset; */
+    /* gap: 2rem; */
+    height: 50%;
+  }
+
+  .homeContentLeft,
+  .homeContentRight,
+  .heroMiddleLine {
+    display: none !important;
+  }
+
+  .homeTitle {
+    font-size: 2.2rem;
+    /* padding: 0 1rem; */
+  }
+
+  .homeText {
+    font-size: 1.1rem;
+    /* padding: 0 1rem; */
+  }
+
+  .imageDeck {
+    flex-direction: column;
+    /* gap: 1rem; */
+  }
+
+  /* .imageCard {
+    width: 90vw;
+    height: 30vw;
+    min-width: 180px;
+    min-height: 120px;
+    max-width: 350px;
+    max-height: 220px;
+  } */
+
+    .homeEnquireButton {
+    font-size: 1rem;
+    /* padding: 8px 16px; */
+  }
+
+  .scrollPrompt {
+    display: none !important;
+  }
+}

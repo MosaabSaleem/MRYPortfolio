@@ -77,3 +77,34 @@
     background: linear-gradient(90deg, #0d98ba, #2a8fa8);
     transform: translateY(-2px) scale(1.04);
 }
+
+@media (max-width: 900px) {
+  .About {
+    max-width: 98%;
+    margin-top: 8vh;
+    padding: 1rem 0.5rem 2rem 0.5rem;
+  }
+  .AboutTitle {
+    font-size: 2rem;
+  }
+  .AboutText {
+    font-size: 1rem;
+  }
+  .AboutListItem {
+    font-size: 0.95rem;
+    padding: 0.7rem 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .About {
+    margin-top: 5vh;
+    padding: 0.5rem 0.2rem 1rem 0.2rem;
+  }
+  .AboutTitle {
+    font-size: 1.2rem;
+  }
+  .AboutText {
+    font-size: 0.95rem;
+  }
+}
