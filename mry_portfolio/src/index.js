@@ -9,6 +9,7 @@ import About from './About.jsx';
 import Projects from './Projects.jsx';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './Components/NavBar.jsx';
+import Services from './Services.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,8 @@ root.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
