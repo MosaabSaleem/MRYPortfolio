@@ -14,7 +14,7 @@ export default function NavBar() {
                 <Link to="/contact" className="navlink">Contact us</Link>
                 <Link to="/projects" className="navlink">Projects</Link>
                 <Link to="/about" className="navlink">About</Link>
-                <Link to="/services" className="navlink">Services</Link>
+                {/* <Link to="/services" className="navlink">Services</Link> */}
             </div>
         </nav>
     );

@@ -16,8 +16,8 @@ export default function About() {
       <p className="AboutText">Whether you’re a startup ready to make your mark or an established business looking to grow, MRY is here to <b>bring your vision to life</b>.</p>
       <p className="AboutText"><b>What makes us different?</b></p>
       <ul className="AboutList">
-        <li className="AboutListItem"><b>Tailored website solutions</b> – We don’t believe in templates. Every design is custom-built to reflect your unique brand.</li>
-        <li className="AboutListItem"><b>User-first approach</b> – We create intuitive, engaging websites that keep visitors coming back.</li>
+        <li className="AboutListItem"><b>Tailored website solutions</b> – Every design is custom-built to reflect your unique brand.</li>
+        {/* <li className="AboutListItem"><b>User-first approach</b> – We create intuitive, engaging websites that keep visitors coming back.</li> */}
         <li className="AboutListItem"><b>Cutting-edge technology</b> – From responsive design to SEO optimization, we use the latest tools to keep your site ahead of the curve.</li>
         <li className="AboutListItem"><b>Collaborative process</b> – We work closely with you every step of the way, ensuring your voice is heard and your goals are met.</li>
       </ul>

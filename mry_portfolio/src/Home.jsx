@@ -49,12 +49,28 @@ function Home() {
           <img src={heroImage} className="heroImage" alt="MRY Logo"/>
         </div>
       </div>
+      <div className="Services">
+        <h1 className="ServicesTitle">Our Services</h1>
+        <div className="ServicesContent">
+          <p>We create custom websites that look great, work smoothly, and reflect your brand.</p>
+          <p>Each site is built from the ground up. Responsive, fast, and designed for real users.</p>
+          <div className="ServicesListContainer">
+          <p><b>What we can do</b></p>
+          <ul className="serviceList">
+            <li className="serviceListItem">✏️ Design modern, brand-aligned website layouts</li>
+            <li className="serviceListItem">💻 Develop responsive pages that work on all devices</li>
+            <li className="serviceListItem">⚙️ Implement smooth navigation and interactive elements</li>
+            <li className="serviceListItem">📄 Help structure your content for clarity and impact</li>
+          </ul>
+          </div>
+        </div>
+      </div>
       <div className="homeContent">
         <div className="homeContentLeft">
           <img src={CodeIcon} className="homeLeftIcon" alt="Project 3"/>
         </div>
         <div className="homeContentMiddle">
-          <p className="homeText">Explore some of our projects or contact us now!</p>
+          <p className="homeText">Explore some of our projects!</p>
           <div className="imageDeck" onClick={handleImageClick}>
             <div className="imageCard">
               <img src={CookiesExample} alt="Project 1"/>

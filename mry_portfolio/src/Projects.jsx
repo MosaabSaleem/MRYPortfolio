@@ -7,7 +7,7 @@ export default function Projects() {
         <div className="Projects">
           {/* <div className="ProjectTitleContainer"> */}
             <h1 className="ProjectsTitle">Our Projects</h1>
-            <p className="ProjectsSubTitle">Explore some of our projects below!</p>
+            <p className="ProjectsSubTitle">Explore some of our projects below.</p>
           {/* </div> */}
             
           <div className="ProjectsList">
