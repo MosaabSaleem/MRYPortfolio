@@ -98,6 +98,7 @@
 
 @media (max-width: 600px) {
   .About {
+    width: 90%;
     margin-top: 5vh;
     padding: 0.5rem 0.2rem 1rem 0.2rem;
   }

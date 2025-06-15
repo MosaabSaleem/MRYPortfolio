@@ -124,6 +124,12 @@
     flex-direction: row;
     height: auto;
     position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
   .navbarlogo {
     width: 100%;
