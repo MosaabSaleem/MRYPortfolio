@@ -57,10 +57,10 @@ function Home() {
           <div className="ServicesListContainer">
           <p><b>What we can do</b></p>
           <ul className="serviceList">
-            <li className="serviceListItem">✏️ Design modern, brand-aligned website layouts</li>
-            <li className="serviceListItem">💻 Develop responsive pages that work on all devices</li>
+            <li className="serviceListItem">✏️ <b>Design</b> modern, brand-aligned website layouts</li>
+            <li className="serviceListItem">💻 <b>Develop</b> responsive pages that work on all devices</li>
+            <li className="serviceListItem">☁️ Support and Guide through <b>hosting</b> on services like Azure</li>
             <li className="serviceListItem">⚙️ Implement smooth navigation and interactive elements</li>
-            <li className="serviceListItem">📄 Help structure your content for clarity and impact</li>
           </ul>
           </div>
         </div>
