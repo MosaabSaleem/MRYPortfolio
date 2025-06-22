@@ -454,8 +454,21 @@ h1 {
   }
 
   .homeTitle {
-    font-size: 2.2rem;
+    font-size: 2rem;
     /* padding: 0 1rem; */
+  }
+
+  .homeTitle .titleUnderline::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 5px;
+    background-color: #1e203e;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 1s ease-in-out;
   }
 
   .Services {

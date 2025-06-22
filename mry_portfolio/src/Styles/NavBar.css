@@ -132,15 +132,16 @@
     padding-right: 0;
   }
   .navbarlogo {
-    width: 100%;
+    width: auto;
     justify-content: center;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
   }
   .navlinks {
     position: static;
     left: unset;
     transform: unset;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     width: 100%;
     justify-content: center;
