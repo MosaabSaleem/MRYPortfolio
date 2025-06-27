@@ -22,7 +22,8 @@ export default function Projects() {
                   <p className="ProjectDescription">Online shop for a local cookie businesses. Straight to the point, it allows for an easy customer experience and accepts payments for you!</p>
                 </div>
               </div>
-            </a>
+            </a >
+            <a href="https://lemon-desert-0576aac1e.2.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">
               <div className="ProjectCard">
                 <div className="ProjectCardleft">
                   <img src={Appointment} alt="Project 2" className="ProjectCardImage" />
@@ -32,6 +33,8 @@ export default function Projects() {
                   <p className="ProjectDescription">Site built for a general doctor. Allows users to book appointments online through the Calendly API. Also gives vital information about the doctor.</p>
                 </div>
               </div>
+            </a>
+            <a href="https://github.com/MosaabSaleem?tab=repositories" target="_blank" rel="noopener noreferrer">
               <div className="ProjectCard">
                 <div className="ProjectCardleft">
                   <img src={ComingSoon} alt="Project 3" className="ProjectCardImage" />
@@ -41,16 +44,17 @@ export default function Projects() {
                   <p className="ProjectDescription">Description of Project 3.</p>
                 </div>
               </div>
+            </a>
               <a href="https://github.com/MosaabSaleem?tab=repositories" target="_blank" rel="noopener noreferrer">
-              <div className="ProjectCard">
-                <div className="ProjectCardleft">
-                  <img src={ComingSoon} alt="Project 4" className="ProjectCardImage" />
+                <div className="ProjectCard">
+                  <div className="ProjectCardleft">
+                    <img src={ComingSoon} alt="Project 4" className="ProjectCardImage" />
+                  </div>
+                  <div className="ProjectCardRight">
+                    <h2 className="ProjectCardTitle">Check Upcoming Projects</h2>
+                    <p className="ProjectDescription">We're always working on projects to display and improve or skills. Stay on the lookout and check us out on Github!</p>
+                  </div>
                 </div>
-                <div className="ProjectCardRight">
-                  <h2 className="ProjectCardTitle">Check Upcoming Projects</h2>
-                  <p className="ProjectDescription">We're always working on projects to display and improve or skills. Stay on the lookout and check us out on Github!</p>
-                </div>
-              </div>
               </a>
             </div>
         </div>
