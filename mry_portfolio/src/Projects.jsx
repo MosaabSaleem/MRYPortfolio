@@ -1,6 +1,7 @@
 import "./Styles/Projects.css";
 import Cookies from "./Assets/CookiesExample.png";
 import ComingSoon from "./Assets/ComingSoon.png";
+import Appointment from "./Assets/appointmentPic.png";
 
 export default function Projects() {
     return (
@@ -24,11 +25,11 @@ export default function Projects() {
             </a>
               <div className="ProjectCard">
                 <div className="ProjectCardleft">
-                  <img src={ComingSoon} alt="Project 2" className="ProjectCardImage" />
+                  <img src={Appointment} alt="Project 2" className="ProjectCardImage" />
                 </div>
                 <div className="ProjectCardRight">
-                  <h2 className="ProjectCardTitle">Project 2</h2>
-                  <p className="ProjectDescription">Description of Project 2.</p>
+                  <h2 className="ProjectCardTitle">Doctor Booking Site</h2>
+                  <p className="ProjectDescription">Site built for a general doctor. Allows users to book appointments online through the Calendly API. Also gives vital information about the doctor.</p>
                 </div>
               </div>
               <div className="ProjectCard">
