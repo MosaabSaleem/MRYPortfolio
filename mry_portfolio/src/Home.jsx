@@ -59,7 +59,7 @@ function Home() {
           <ul className="serviceList">
             <li className="serviceListItem">✏️ <b>Design</b> modern, brand-aligned website layouts</li>
             <li className="serviceListItem">💻 <b>Develop</b> responsive pages that work on all devices</li>
-            <li className="serviceListItem">☁️ Support and Guide through <b>hosting</b> on services like Azure</li>
+            <li className="serviceListItem">☁️ Support and Guide through <b>hosting</b> on online services</li>
             <li className="serviceListItem">⚙️ Implement smooth navigation and interactive elements</li>
           </ul>
           </div>
